@@ -1,0 +1,61 @@
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.menu-left > h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.menu-left > p {
+    max-width: 450px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+.menu-assure {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 500px;
+}
+.assure-each {
+    display: flex;
+}
+.menu-cta {
+    width: 150px;
+    border-radius: 8px;
+    gap: 5px;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+}
+.menu-cta > a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-right {
+    display: flex;
+    gap: 25px;
+}
+.menu-right-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.menu-right-2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

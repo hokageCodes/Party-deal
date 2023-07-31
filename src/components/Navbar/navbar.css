@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 100px;
 }
 .nav-links {
     display: flex;
@@ -9,7 +13,7 @@
     gap: 50px;
 }
 .rsvp {
-    padding: 15px 20px;
+    padding: 20px;
     background: red;
     border-radius: 10px;
     color: #fff;
